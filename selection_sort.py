@@ -10,7 +10,7 @@ def find_index_of_minimal_value(numbers):
         return response
     value = numbers[0]
     while True:
-        if (length-1) == i:
+        if (length) == i:
             return response 
         next_value = numbers[i]
         if next_value < value:
